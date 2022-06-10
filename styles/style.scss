@@ -1,0 +1,64 @@
+/*Mixin's*/
+
+@mixin transition {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00E7C1;
+    font-family: "Open sans", "HelveticaNeue", sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1,
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.seconds,
+.tens {
+    font-size: 4em;
+    font-weight: 100;
+}
+
+button {
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background: #00E7C1;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+button:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: #ffffff;
+    color: #00E7C1;
+}
+
+
+/*# sourceMappingURL=main.css.map */
